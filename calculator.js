@@ -11,7 +11,7 @@ process.stdin.on('data',(chunk) => {
   }
 
   process.stdout.write('Enter a simple equation: ');
-})
+});
 
 
 process.stdout.write('Enter a simple equation: ');
