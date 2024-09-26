@@ -4,7 +4,7 @@ const rl = readLine.createInterface({
   output: process.stdout
 });
 
-function t() {
+function question() {
   rl.question('Enter a simple equation: ', (input) => {
     if (input === 'quit') {
       rl.close();
@@ -16,9 +16,9 @@ function t() {
       console.log("i dont know how to do that");
     }
 
-    t();
+    question();
   }
   });
 }
 
-t();
+question();
