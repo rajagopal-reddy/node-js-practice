@@ -1,2 +1,2 @@
 # node-js-practice
-simple calculator
+learning node js 
